@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.blue-text {
+  color: #039dff;
+}
+
 nav {
   text-transform: uppercase;
 }
@@ -84,5 +88,10 @@ header .hero-text {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
+}
+
+header p {
+  padding: 10px;
 }
 /*# sourceMappingURL=main.css.map */

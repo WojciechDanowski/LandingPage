@@ -10,6 +10,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.blue-text {
+  color: #039dff;
+}
 // NAVIGATION
 nav {
   text-transform: uppercase;
@@ -65,5 +68,9 @@ header {
     align-items: center;
     height: 100%;
     flex-direction: column;
+    text-align: center;
+  }
+  p {
+    padding: 10px;
   }
 }
