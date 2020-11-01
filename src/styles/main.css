@@ -5,6 +5,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  background-color: #333;
 }
 
 html {
@@ -12,6 +13,33 @@ html {
 }
 
 nav {
-  color: red;
+  text-transform: uppercase;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .nav-link {
+  color: #fff;
+}
+
+nav a,
+nav i {
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #039dff;
+}
+
+nav .active {
+  color: #039dff;
 }
 /*# sourceMappingURL=main.css.map */

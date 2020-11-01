@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  background-color: #333;
 }
 
 html {
@@ -11,5 +12,26 @@ html {
 }
 
 nav {
-  color: red;
+  text-transform: uppercase;
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  a,
+  i {
+    color: #fff;
+    transition: 0.3s;
+  }
+  i {
+    padding: 10px;
+  }
+  a:hover {
+    color: #039dff;
+  }
+  .active {
+    color: #039dff;
+  }
 }
