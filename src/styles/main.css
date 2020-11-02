@@ -94,4 +94,17 @@ header .hero-text {
 header p {
   padding: 10px;
 }
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+
+header .fa-angle-down {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
 /*# sourceMappingURL=main.css.map */

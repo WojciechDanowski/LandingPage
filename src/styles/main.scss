@@ -73,4 +73,15 @@ header {
   p {
     padding: 10px;
   }
+
+  .btn-outline-light {
+    text-transform: uppercase;
+  }
+  .fa-angle-down {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
