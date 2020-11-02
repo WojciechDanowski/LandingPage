@@ -16,6 +16,7 @@ html {
 // NAVIGATION
 nav {
   text-transform: uppercase;
+  transition: background-color 0.6s;
 
   .navbar-brand {
     font-weight: bold;
@@ -37,6 +38,9 @@ nav {
   .active {
     color: #039dff;
   }
+}
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 // HEADER
 
