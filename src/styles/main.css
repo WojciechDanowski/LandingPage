@@ -104,12 +104,6 @@ header .btn-outline-light {
 
 header .fa-angle-down {
   display: none;
-  position: absolute;
-  bottom: 0;
-  font-size: 30px;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
 }
 
 @media (min-width: 375px) {

@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/src/styles/animate.css" />
     <link rel="stylesheet" href="/src/styles/main.css" />
     <link
       rel="stylesheet"
@@ -30,10 +31,7 @@
       media="screen and (min-width:992px)"
       href="./styles/large.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -76,14 +74,24 @@
       <div class="hero-img">
         <div class="hero-shadow"></div>
         <div class="hero-text">
-          <h1>Witajcie w pro<span class="blue-text">gamers</span></h1>
+          <h1 class="os-animation" data-animation="bounceInUp" data-delay=".2s">
+            Witajcie w pro<span class="blue-text">gamers</span>
+          </h1>
 
-          <p>W miejscu, gdzie gry tworzymy z pasją!</p>
-          <a type="button" href="#aboutus" class="btn btn-outline-light">
+          <p class="os-animation" data-animation="bounceInUp" data-delay="0.5s">
+            W miejscu, gdzie gry tworzymy z pasją!
+          </p>
+          <a
+            type="button"
+            href="#aboutus"
+            class="btn btn-outline-light os-animation"
+            data-animation="bounceInUp"
+            data-delay="0.8s"
+          >
             poznaj nas!
           </a>
         </div>
-        <i class="fas fa-angle-down"></i>
+        <a href="#aboutus"><i class="fas fa-angle-down"></i></a>
       </div>
     </header>
     <div class="test" style="height: 100vh"></div>
